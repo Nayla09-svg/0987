@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Contact — Nayla</title>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600&family=Playfair+Display:wght@700&display=swap" rel="stylesheet">
+  <style>
+    body {margin:0;font-family:'Poppins',sans-serif;background:#f6faf6;color:#1a1f1c;text-align:center;}
+    nav{background:#9dc6a7;padding:15px 0;}
+    .navbar-brand{font-family:'Playfair Display',serif;color:#fff;font-weight:700;text-decoration:none;font-size:22px;}
+    .contact-card{background:#fff;border-radius:16px;max-width:600px;margin:60px auto;padding:40px;box-shadow:0 4px 10px rgba(0,0,0,.05);}
+    h2{font-family:'Playfair Display',serif;margin-bottom:25px;color:#111;}
+    input,textarea{width:100%;padding:10px 14px;border:1px solid #d9e4d6;border-radius:8px;margin-bottom:14px;font-family:'Poppins',sans-serif;}
+    button{background:#9dc6a7;color:#fff;border:none;padding:10px 24px;border-radius:8px;font-weight:600;cursor:pointer;}
+    button:hover{background:#85b48e;}
+  </style>
+</head>
+<body>
+  <nav><a href="#" class="navbar-brand">Portfolio Nayla</a></nav>
+  <div class="contact-card">
+    <h2>Contact Me</h2>
+    <form action="contact.php" method="POST">
+      <input type="text" name="name" placeholder="Your Name" required>
+      <input type="email" name="email" placeholder="Your Email" required>
+      <textarea name="message" rows="4" placeholder="Your Message" required></textarea>
+      <button type="submit">Send Message</button>
+    </form>
+  </div>
+</body>
+</html>
